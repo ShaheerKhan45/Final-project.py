@@ -1,0 +1,104 @@
+# Attendance Register of school system 30 days:
+studentname=input ("Enter student name:")
+day=input ("Enter day:")
+date= input ("Enter date: ")
+lst=["monday","tuesday","wedenesday","thursday","friday","sturday","sunday"]
+date=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+if day=="monday" or date==1:
+  print("Present")
+elif day=="tuesday"or date==2:
+  print("Absent")
+elif day=="wedenesday"or date==3:
+  print("Absent")
+elif day=="thursday"or date==4:
+    print ("present")
+elif day=="friday"or date==5:
+    print("present")
+elif day=="saturday"or date==6:
+  print("Absent")
+elif day=="sunday"or date==7:
+  print("Absent")
+elif day=="monday"or date==8:
+  print("present")
+elif day=="tuesday"or date==9:
+  print("Absent")
+elif day=="wedenesday"or date==10:
+  print ("present")
+elif day=="thursday"or date==11:
+  print("present")
+elif day=="friday"or date==12:
+  print("present")
+elif day=="saturday"or date==13:
+  print ("Absent")
+elif day=="sunday"or date==14:
+ print("Absent")
+elif day=="monday"or date==15:
+  print("present")
+elif day=="tuesday"or date==16:
+  print("present")
+elif day=="wedenesday"or date==17:
+  print("present")
+elif day=="thursday"or date==18:
+  print("Absent")
+elif day=="friday"or date==19:
+  print("present")
+elif day=="saturday"or date==20:
+  print("Absent")
+elif day=="sunday"or date==21:
+  print("Absent")
+elif day=="monday"or date==22:
+  print("present")
+elif day=="tuesday"or date==23:
+  print("present")
+elif day=="wedenesday"or date==24:
+  print("present")
+elif day=="thursday"or date==25:
+  print("present")
+elif day=="friday"or date==26:
+  print("present")
+elif day=="saturday"or date==27:
+  print("Absent")
+elif day=="sunday"or date==28:
+  print("Absent")
+elif day=="monday"or date==29:
+  print("Absent")
+elif day=="tuesday"or date==30:
+  print("present")
+elif day not in lst:
+  print("Invalid")
+elif date not in date:
+  print ("Invalid")
+else:
+  print ()
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
